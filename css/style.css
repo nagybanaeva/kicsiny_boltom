@@ -12,18 +12,20 @@ html, body{
   background-size: cover;
 }
 
-.kozepso{
+.main{
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.fejlec{
+
+.header{
   display: flex;
   justify-content: center;
 }
-.lablec{
+
+.footer{
   display: flex;
   justify-content: center;
 }
@@ -32,19 +34,21 @@ a{
   color: white;
   text-decoration: none;
 }
-.fejleclink{
+
+.header-link{
   margin: 0 .2rem;
   color: black;
   font-size: 1rem;
 }
 
-.oriasbetu{
+.name{
   font-family: 'Niramit';
   font-size: 3rem;
   text-align: center;
   margin: 1rem;
 }
-.gombocska{
+
+.button{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.62rem;
   margin: 1rem;
@@ -53,30 +57,30 @@ a{
   display: inline-block;
   text-align: center;
 }
-.gombdoboz{
+
+.button-box{
   text-align: center;
   margin: 2rem;
 }
-.gombocska:hover{
+
+.button:hover{
   border: 0.062rem solid white;
   transition-duration: 0.5s;
 }
 
 @media (min-width: 768px){
-    .fejlec, .gombocska, .lablec{
-      font-size: 2rem;
-       }
-.lablec{
-      font-size: 1.5rem;
-       }
-  .gombocska{
-       width: 14rem;
+  .header, .button, .footer{
+  font-size: 2rem;
   }
-      .oriasbetu{
-        font-size: 6rem;
-}
-  .fejleclink{
+
+  .button{
+  width: 14rem;
+  }
+  .name{
+  font-size: 6rem;
+  }
+  .header-link{
   margin: 0 .3rem;
   font-size: 1.8rem;
-}
+  }
 }
